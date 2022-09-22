@@ -1,4 +1,4 @@
-const router = require("express").Router();     // luodaan muuttuja router joka käyttää kirjastoa express ja funktiota router
+const router = require("express").Router();     
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
 //REGISTER
